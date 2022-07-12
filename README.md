@@ -2,6 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Preinstalledpackages
+
+This is a basic app with the following preinstalled packages:
+
+- Eslint
+- Prettier
+- eslint-config-prettier
+- tailwindcss
+- postcss
+- autoprefixer
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -38,6 +49,20 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+### `npm run format`
+
+This command formats all the files in the src folder (and its sub-folders) for you.
+
+All formatting rules included in the `.prettierrc` file are applied.
+
+### `npm run lint`
+
+This command applies the standard validation rules for you.
+
+_If you are using Visual Studio Code as your favorite code editor, I recommend setting Prettier as your default code formatter._
+
+_I recommend visiting the page [Tailwind](https://tailwindcss.com) to use the full potential of this excellent css framework._
 
 ## Learn More
 
